@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Wedding of Irwan & Wuri</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@300;400;600&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <audio id="weddingMusic" loop>
+        <source src="https://www.bensound.com/bensound-music/bensound-love.mp3" type="audio/mpeg">
+    </audio>
+
+    <div id="music-control" onclick="toggleMusic()">🎵</div>
+
+    <div id="cover">
+        <div data-aos="fade-up">
+            <h2>The Wedding of</h2>
+            <h1>Arya & Ulfa</h1>
+            <p>Kepada Tamu Undangan:</p>
+            <h2 id="guest-name">Ibu Sutriana</h2>
+            <button class="btn-open" onclick="startInvitation()">Buka Undangan</button>
+        </div>
+    </div>
+
+    <main class="main-content">
+        <section id="salam">
+            <div class="glass-card" data-aos="fade-up">
+                <h2 class="section-title">بسم الله الرحمن الرحيم</h2>
+                <p>Atas Nama Allah Yang Maha Pengasih Dan Penyayang, kami bermaksud mengundang Bapak/Ibu/Saudara/i pada acara pernikahan kami.</p>
+            </div>
+            
+
+            <div class="couple-wrap">
+                <div class="glass-card flex-1" data-aos="fade-right">
+                    <img src="foto.jpg" class="mempelai-img" alt="Irwan">
+                    <h3 class="name">Arya Syachrian Al-Amin</h3>
+                    <p>Putra dari Gusmidianysah & Ibu Sutriana</p>
+                </div>
+                
+                <div class="divider-and" data-aos="zoom-in">dan</div>
+
+                <div class="glass-card flex-1" data-aos="fade-left">
+                    <img src="foto2.jpg" class="mempelai-img" alt="Wuri">
+                    <h3 class="name">Ulfa</h3>
+                    <p>Putri dari Bapak Nama Ayah & Ibu Nama Ibu</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="acara">
+            <div class="glass-card" data-aos="zoom-in">
+                <h2 class="section-title">Waktu & Tempat</h2>
+                <div class="info-box">
+                    <h3 class="date-label">MINGGU</h3>
+                    <h1 class="date-big">12</h1>
+                    <h3 class="date-label">JULI 2026</h3>
+                    <hr class="gold-line">
+                    <p>Pukul: 09.00 WITA - Selesai</p>
+                    <p>Lokasi: <strong>Simpang Tiga Padang Guci</strong><br>Jl. simpang tiga. 123, Kaur</p>
+                    <br>
+                    <a href="https://maps.google.com" target="_blank" class="btn-open no-deco">Buka Google Maps</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <section id="thanks-message">
+    <div class="glass-card" data-aos="fade-up">
+        <h2 class="section-title">Terima Kasih</h2>
+        <p class="animated-thanks">
+            Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/i berkenan hadir untuk memberikan doa restu.
+            <br><br>
+            Atas kehadiran dan doa restu Bapak/Ibu/Saudara/i, kami ucapkan terima kasih.
+            <br>
+            Wassalamu’alaikum Warahmatullahi Wabarakatuh.
+        </p>
+        <h3 class="signature">Arya & Ulfa</h3>
+    </div>
+</section>
+
+    <section id="gallery-auto">
+    <div class="glass-card" data-aos="fade-up">
+        <h2 class="section-title">Galeri Foto</h2>
+        <div class="infinite-slider">
+            <div class="infinite-track">
+                <img src="foto.jpg" alt="Gallery 1">
+                <img src="foto2.jpg" alt="Gallery 2">
+                <img src="foto.jpg" alt="Gallery 3">
+                <img src="foto2.jpg" alt="Gallery 4">
+                <img src="foto.jpg" alt="Gallery 1">
+                <img src="foto2.jpg" alt="Gallery 2">
+                <img src="foto.jpg" alt="Gallery 3">
+                <img src="foto2.jpg" alt="Gallery 4">
+            </div>
+        </div>
+    </div>
+</section>
+
+    <footer>
+        <p>&copy; 2026 Arya & Ulfa Wedding. Made with egy</p>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
